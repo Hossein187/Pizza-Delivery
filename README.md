@@ -66,15 +66,19 @@ The application uses a mock API. To customize data:
 ## Screenshots
 
 ### Menu Browsing
+
 ![Pizza Menu](./public/ScreenShots/menu.png)
 
 ### Cart Management
+
 ![Shopping Cart](./public/ScreenShots/cart.png)
 
 ### Order Creation
+
 ![Create Order](./public/ScreenShots/create-order.png)
 
 ### Order Tracking
+
 ![Order Status](./public/ScreenShots/order.png)
 
 ## Technical Stack
@@ -110,11 +114,3 @@ We welcome contributions! Please follow these steps:
 5. Open a Pull Request
 
 Please ensure your code follows the existing style and includes appropriate tests.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-Built as part of a React learning journey. Credits to [Jonas Schmedtmann](https://twitter.com/jonasschmedtman) for the excellent React course inspiration.
