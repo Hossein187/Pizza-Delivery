@@ -21,7 +21,7 @@ Fast React Pizza is a React-based pizza ordering application that demonstrates m
 
 ![Menu View](./public/ScreenShots/menu.png)
 ![Cart Overview](./public/ScreenShots/cart.png)
-![Order Form](./public/ScreenShots/order.png)
+![Create Order](./public/ScreenShots/create-order.png)
 
 ## Installation
 
@@ -70,6 +70,9 @@ The application uses a mock API. To customize data:
 
 ### Cart Management
 ![Shopping Cart](./public/ScreenShots/cart.png)
+
+### Order Creation
+![Create Order](./public/ScreenShots/create-order.png)
 
 ### Order Tracking
 ![Order Status](./public/ScreenShots/order.png)
