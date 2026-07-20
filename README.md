@@ -1,112 +1,94 @@
-# Fast React Pizza
+# 🍕 Fast React Pizza
 
-A modern, responsive pizza ordering web application built with React, featuring a clean UI, seamless cart management, and real-time order tracking.
+A modern pizza ordering web application where you can browse menus, manage your cart, and place orders with real-time tracking.
 
-![Demo Preview](./public/ScreenShots/main.png)
+![Fast React Pizza Screenshot](./public/ScreenShots/menu.png)
+![Fast React Pizza Screenshot](./public/ScreenShots/cart.png)
+![Fast React Pizza Screenshot](./public/ScreenShots/create-order.png)
+![Fast React Pizza Screenshot](./public/ScreenShots/order.png)
 
-## Overview
+## ✨ Features
 
-Fast React Pizza is a React-based pizza ordering application that demonstrates modern web development practices. Built with React Router v6 for navigation, Redux Toolkit for state management, and Tailwind CSS for styling, this app provides a smooth user experience from menu browsing to order placement.
+- 🍕 **Interactive Menu** — browse through a variety of pizzas with detailed ingredients
+- 🛒 **Smart Cart System** — add/remove items, adjust quantities with real-time price calculation
+- 🚀 **Priority Ordering** — option to expedite orders for an additional fee
+- 📍 **Geolocation Integration** — automatic address detection via browser Geolocation API
+- 💰 **Currency Formatting** — real-time price display in EUR with proper number formatting
+- 🔒 **Protected Routes** — order pages with form validation and error handling
+- ⚡ **Client-side Routing** — React Router v6 with loaders and actions for data fetching
+- 🗂️ **Global State** — Redux Toolkit for cart management and user state
+- 📱 **Fully Responsive** — optimized for both mobile and desktop experiences
 
-## Key Features
+## 🛠️ Built With
 
-- **Interactive Menu**: Browse through a variety of pizzas with detailed ingredient information
-- **Smart Cart System**: Add/remove items, adjust quantities, and see real-time price calculations
-- **Priority Ordering**: Option to expedite orders for an additional fee
-- **Address Integration**: Automatic geolocation detection for delivery addresses
-- **Order Tracking**: Real-time order status and estimated delivery countdown
-- **Responsive Design**: Fully optimized for mobile and desktop experiences
+- **React 18+** + **Vite**
+- **React Router v6** — loaders, actions, and nested routes
+- **Redux Toolkit** — global cart and user state management
+- **Tailwind CSS** — utility-first styling
+- **json-server** — mock REST API for local development
+- **ESLint** + **React Doctor** — code quality and React best practices
 
-## Demo Preview
+## 🚀 Getting Started
 
-![Menu View](./public/ScreenShots/menu.png)
-![Cart Overview](./public/ScreenShots/cart.png)
-![Create Order](./public/ScreenShots/create-order.png)
+### Prerequisites
 
-## Installation
+- Node.js (v18+)
+- npm
 
-1. Clone the repository:
+### Installation
 
 ```bash
+# Clone the repo
 git clone https://github.com/Hossein187/Pizza-Delivery.git
 cd Pizza-Delivery
-```
 
-2. Install dependencies:
-
-```bash
+# Install dependencies
 npm install
 ```
 
-3. Start the development server:
+### Running locally
 
 ```bash
+# Start Vite dev server
 npm run dev
 ```
 
-The application will be available at `http://localhost:5173`
+The app will be running at `http://localhost:5173`.
 
-## Usage
+### Other scripts
 
-### For Customers
+```bash
+npm run build      # production build
+npm run preview    # preview the production build locally
+npm run lint       # check code with ESLint
+```
 
-1. Browse the menu to view available pizzas
-2. Add pizzas to your cart with customizable quantities
-3. Proceed to checkout and fill in your delivery details
-4. Track your order status in real-time
-
-### For Developers
-
-The application uses a mock API. To customize data:
-
-- Modify `src/services/apiRestaurant.js` for menu/order endpoints
-- Adjust styling in `tailwind.config.js`
-- Update state logic in `src/features/cart/cartSlice.js`
-
-## Screenshots
-
-### Menu Browsing
-
-![Pizza Menu](./public/ScreenShots/pizza-search.png)
-
-### Cart Management
-
-![Shopping Cart](./public/ScreenShots/cart.png)
-
-### Order Tracking
-
-![Order Status](./public/ScreenShots/order.png)
-
-## Technical Stack
-
-- **React 18+** - Component-based UI development
-- **React Router v6** - Declarative routing and data loading
-- **Redux Toolkit** - Predictable state management
-- **Tailwind CSS** - Utility-first CSS framework
-- **Vite** - Fast build tool and development server
-
-## Project Structure
+## 📁 Project Structure
 
 ```
 src/
 ├── features/
-│   ├── cart/          # Cart management components and Redux slice
-│   ├── menu/          # Menu display and loader
-│   ├── order/         # Order creation and tracking
-│   └── user/          # User profile and address management
-├── services/          # API integration layer
-├── ui/               # Reusable UI components
-└── utils/            # Helper functions
+│   ├── cart/        # Cart management components and Redux slice
+│   ├── menu/        # Menu display and loader
+│   ├── order/       # Order creation and tracking
+│   └── user/        # User profile and address management
+├── services/        # API integration layer
+├── ui/             # Reusable UI components (Button, Loader, Error, etc.)
+└── utils/          # Helper functions (formatting, calculations)
 ```
 
-## Contributing
+## 🧠 What I Learned
 
-We welcome contributions! Please follow these steps:
+- Managing asynchronous form submissions with React Router actions
+- Implementing geolocation-based address detection with error handling
+- Building a complete cart system with Redux Toolkit
+- Using nested routes and layout components for better code organization
+- Handling real-time price calculations with currency formatting
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+## 📄 License
 
-Please ensure your code follows the existing style and includes appropriate tests.
+This project is licensed under the MIT License.
+
+## 🔗 Live Demo
+
+[View Live Demo](#) <!-- add your Vercel link here once deployed -->
