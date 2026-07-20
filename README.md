@@ -2,7 +2,7 @@
 
 A modern, responsive pizza ordering web application built with React, featuring a clean UI, seamless cart management, and real-time order tracking.
 
-![Demo Preview](./public/ScreenShots/menu.png)
+![Demo Preview](./public/ScreenShots/main.png)
 
 ## Overview
 
@@ -67,15 +67,11 @@ The application uses a mock API. To customize data:
 
 ### Menu Browsing
 
-![Pizza Menu](./public/ScreenShots/menu.png)
+![Pizza Menu](./public/ScreenShots/pizza-search.png)
 
 ### Cart Management
 
 ![Shopping Cart](./public/ScreenShots/cart.png)
-
-### Order Creation
-
-![Create Order](./public/ScreenShots/create-order.png)
 
 ### Order Tracking
 
